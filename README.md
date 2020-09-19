@@ -1,7 +1,7 @@
 # javascript30
 This is a repository for 30 different projects written in JavaScript based on WesBos's course: [#JavaScript30](https://javascript30.com). You can find my result [here](https://javascript30project.herokuapp.com).
 - [X] [JavaScript Drum Kit](https://github.com/capkimquang/javascript30/tree/master/challenge/01)
-- [ ] CSS + JS Clock
+- [X] [CSS + JS Clock](https://github.com/capkimquang/javascript30/tree/master/challenge/02)
 - [ ] Playing with CSS variables and JS
 - ...
 # References
