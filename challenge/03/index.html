@@ -56,11 +56,14 @@
   <img src="https://source.unsplash.com/7bwQXzbF6KE/800x500">
 
   <script>
-   /* query all elements that have control and input class */
+    /* query all elements that have controls and input class */
     const inputs = document.querySelectorAll(".controls input");
 
     function handleUpdate() {
+      /* return previous data-sizing value, if element doesn't have data-sizing value then assign suffix = '' to avoid NaN. */
       const suffix = this.dataset.sizing || '';
+      /* handleUpdate will affects element that has controls and input class and has change or mousemove detected
+         then change the value of that elements by new value + suffix. */
       document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
     }
 
