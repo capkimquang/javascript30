@@ -1,7 +1,7 @@
 - [X] [01. JavaScript Drum Kit - 19/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/01)
 - [X] [02. CSS + JS Clock - 19/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/02)
 - [X] [03. Playing with CSS variables and JS - 20/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/03)
-- [ ] 04. Array Cardio Day 1
+- [X] [04. Array Cardio Day 1 - 20/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/04)
 - [ ] 05. Flex Panels Image Gallery
 - [ ] 06. Ajax Type Ahead
 - [ ] 07. Array Cardio Day 2
