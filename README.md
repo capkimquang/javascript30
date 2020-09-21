@@ -4,7 +4,7 @@ This is a repository for 30 different projects written in JavaScript based on We
 - [X] [02. CSS + JS Clock - 19/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/02)
 - [X] [03. Playing with CSS variables and JS - 20/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/03)
 - [X] [04. Array Cardio Day 1 - 20/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/04)
-- [ ] 05. Flex Panels Image Gallery
+- [X] [05. Flex Panels Image Gallery - 21/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/05)
 - [ ] 06. Ajax Type Ahead
 - [ ] 07. Array Cardio Day 2
 - [ ] 08. Fun with HTML5 Canvas
