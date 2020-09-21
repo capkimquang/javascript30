@@ -2,9 +2,9 @@
 - [X] [02. CSS + JS Clock - 19/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/02)
 - [X] [03. Playing with CSS variables and JS - 20/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/03)
 - [X] [04. Array Cardio Day 1 - 20/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/04)
-- [ ] 05. Flex Panels Image Gallery
-- [ ] 06. Ajax Type Ahead
-- [ ] 07. Array Cardio Day 2
+- [X] [05. Flex Panels Image Gallery](https://github.com/capkimquang/javascript30/tree/master/challenge/05)
+- [X] [06. Ajax Type Ahead](https://github.com/capkimquang/javascript30/tree/master/challenge/06)
+- [X] [07. Array Cardio Day 2](https://github.com/capkimquang/javascript30/tree/master/challenge/07)
 - [ ] 08. Fun with HTML5 Canvas
 - [ ] 09. 14 Must Know Dev Tool Tricks
 - [ ] 10. Hold Shift to Check Multiple Checkboxes
