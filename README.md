@@ -9,7 +9,7 @@ This is a repository for 30 different projects written in JavaScript based on We
 - [X] [07. Array Cardio Day 2 - 21/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/07)
 - [X] [08. Fun with HTML5 Canvas - 21/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/08)
 - [X] [09. 14 Must Know Dev Tool Tricks - 22/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/09)
-- [ ] 10. Hold Shift to Check Multiple Checkboxes
+- [X] [10. Hold Shift to Check Multiple Checkboxes - 22/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/010)
 - [ ] 11. Custom HTML5 Video Player
 - [ ] 12. Key Sequence Detection (KONAMI CODE)
 - [ ] 13. Slide In on Scroll
