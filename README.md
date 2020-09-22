@@ -46,11 +46,12 @@ This is a repository for 30 different projects written in JavaScript based on We
 ## this
 
 # Progress
+<pre>
 - Day 1 - 19/09/2020: **2** *projects*.  => 0% |#                   | 100%
 - Day 2 - 20/09/2020: **2** *projects*.  => 0% |##                  | 100%
 - Day 3 - 21/09/2020: **4** *projects*.  => 0% |#####               | 100%
 - Day 4 - 22/09/2020: **2** *projects*.  => 0% |######              | 100%
 - Day 5 - 23/09/2020: **2** *projects*.  => 0% |#######             | 100%
-
+</pre>
 # References
 - [How to Run a Simple HTML/CSS/Javascript Application on Heroku](https://medium.com/@winnieliang/how-to-run-a-simple-html-css-javascript-application-on-heroku-4e664c541b0b)
