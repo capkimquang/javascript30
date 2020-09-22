@@ -6,7 +6,7 @@
 - [X] [06. Ajax Type Ahead - 21/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/06)
 - [X] [07. Array Cardio Day 2 - 21/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/07)
 - [X] [08. Fun with HTML5 Canvas - 21/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/08)
-- [ ] 09. 14 Must Know Dev Tool Tricks
+- [X] [09. 14 Must Know Dev Tool Tricks - 22/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/09)
 - [ ] 10. Hold Shift to Check Multiple Checkboxes
 - [ ] 11. Custom HTML5 Video Player
 - [ ] 12. Key Sequence Detection (KONAMI CODE)
