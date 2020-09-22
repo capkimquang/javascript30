@@ -16,7 +16,7 @@ This is a repository for 30 different projects written in JavaScript based on We
 - [X] [08. Fun with HTML5 Canvas - 21/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/08)
 - [X] [09. 14 Must Know Dev Tool Tricks - 22/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/09)
 - [X] [10. Hold Shift to Check Multiple Checkboxes - 22/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/010)
-- [ ] 11. Custom HTML5 Video Player
+- [X] [11. Custom HTML5 Video Player - 22/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/011)
 - [ ] 12. Key Sequence Detection (KONAMI CODE)
 - [ ] 13. Slide In on Scroll
 - [ ] 14. Object and Arrays - Reference VS Copy
@@ -50,8 +50,7 @@ This is a repository for 30 different projects written in JavaScript based on We
 - Day 1 - 19/09/2020: **2** *projects*.  => 0% |#                   | 100%
 - Day 2 - 20/09/2020: **2** *projects*.  => 0% |##                  | 100%
 - Day 3 - 21/09/2020: **4** *projects*.  => 0% |#####               | 100%
-- Day 4 - 22/09/2020: **2** *projects*.  => 0% |######              | 100%
-- Day 5 - 23/09/2020: **2** *projects*.  => 0% |#######             | 100%
+- Day 4 - 22/09/2020: **3** *projects*.  => 0% |#######             | 100%
 </pre>
 # References
 - [How to Run a Simple HTML/CSS/Javascript Application on Heroku](https://medium.com/@winnieliang/how-to-run-a-simple-html-css-javascript-application-on-heroku-4e664c541b0b)
