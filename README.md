@@ -1,11 +1,17 @@
-# javascript30
 This is a repository for 30 different projects written in JavaScript based on WesBos's course: [#JavaScript30](https://javascript30.com). You can find my result [here](https://javascript30project.herokuapp.com).
+# Content
+1. [Projects List](#project-list)
+2. [Key Concept](#key-concept)
+3. [Progress](#progress)
+4. [References](#references)
+
+# Project List
 - [X] [01. JavaScript Drum Kit - 19/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/01)
 - [X] [02. CSS + JS Clock - 19/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/02)
 - [X] [03. Playing with CSS variables and JS - 20/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/03)
 - [X] [04. Array Cardio Day 1 - 20/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/04)
 - [X] [05. Flex Panels Image Gallery - 21/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/05)
-- [X] [06. Ajax Type Ahead](https://github.com/capkimquang/javascript30/tree/master/challenge/06)
+- [X] [06. Ajax Type Ahead - 21/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/06)
 - [X] [07. Array Cardio Day 2 - 21/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/07)
 - [X] [08. Fun with HTML5 Canvas - 21/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/08)
 - [X] [09. 14 Must Know Dev Tool Tricks - 22/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/09)
@@ -31,6 +37,20 @@ This is a repository for 30 different projects written in JavaScript based on We
 - [ ] 29. Countdown Clock
 - [ ] 30. Whack A Mole Games
 - [ ] 31. That's All Folks
+
+# Key Concept
+## Promise
+## Prototype
+## Callback function
+## fetch()
+## this
+
+# Progress
+- Day 1 - 19/09/2020: **2** *projects*.  => 0% |#                   | 100%
+- Day 2 - 20/09/2020: **2** *projects*.  => 0% |##                  | 100%
+- Day 3 - 21/09/2020: **4** *projects*.  => 0% |#####               | 100%
+- Day 4 - 22/09/2020: **2** *projects*.  => 0% |######              | 100%
+- Day 5 - 23/09/2020: **2** *projects*.  => 0% |#######             | 100%
 
 # References
 - [How to Run a Simple HTML/CSS/Javascript Application on Heroku](https://medium.com/@winnieliang/how-to-run-a-simple-html-css-javascript-application-on-heroku-4e664c541b0b)
