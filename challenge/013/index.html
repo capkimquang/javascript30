@@ -62,7 +62,11 @@
 
     function checkSlide(e) {
       slideImages.forEach(slideImage => {
+        // window.scrollY + window.innerHeight will return the position of the current bottom compared to the top of the page.
+        // which means it can be used to calculate the position of the image compared to the top of the page.
         const slideInAt = (window.scrollY + window.innerHeight) - slideImage.height / 2;
+        // slideImage.offsetTop return the reference distance with the <div> tag, which is its ancestor in the containment hierachy.
+        // slideImage.offsetTop + slideImage.height return the bottom position of the image compare to the top of <div> tag (top of the page too).
         const imageBottom = slideImage.offsetTop + slideImage.height;
         const isHalfShown = slideInAt > slideImage.offsetTop;
         const isNotScrollPast = window.scrollY < imageBottom;
