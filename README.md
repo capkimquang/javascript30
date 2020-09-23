@@ -19,8 +19,8 @@ This is a repository for 30 different projects written in JavaScript based on We
 - [X] [11. Custom HTML5 Video Player - 22/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/011)
 - [X] [12. Key Sequence Detection (KONAMI CODE) - 23/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/012)
 - [X] [13. Slide In on Scroll - 23/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/013)
-- [ ] 14. Object and Arrays - Reference VS Copy
-- [ ] 15. LocalStorage and Event Delegation
+- [X] [14. Object and Arrays - Reference VS Copy - 23/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/014)
+- [X] [15. LocalStorage and Event Delegation - 23/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/015)
 - [ ] 16. CSS Text Shadow Mouse Move Effect
 - [ ] 17. Sorting Band Names without articles
 - [ ] 18. Tally String Times with Reduce
@@ -44,6 +44,9 @@ This is a repository for 30 different projects written in JavaScript based on We
 ## Callback function
 ## fetch()
 ## this
+## Event Delegation
+## JSON
+## localStorage
 
 # Progress
 <pre>
@@ -51,7 +54,8 @@ This is a repository for 30 different projects written in JavaScript based on We
 - Day 2 - 20/09/2020: **2** *projects*. => 04/31    => 0% |##                  | 100%
 - Day 3 - 21/09/2020: **4** *projects*. => 08/31    => 0% |#####               | 100%
 - Day 4 - 22/09/2020: **3** *projects*. => 11/31    => 0% |#######             | 100%
-- Day 5 - 23/09/2020: **2** *projects*. => 13/31    => 0% |########            | 100%
+- Day 5 - 23/09/2020: **4** *projects*. => 15/31    => 0% |#########           | 100%
 </pre>
+
 # References
 - [How to Run a Simple HTML/CSS/Javascript Application on Heroku](https://medium.com/@winnieliang/how-to-run-a-simple-html-css-javascript-application-on-heroku-4e664c541b0b)
