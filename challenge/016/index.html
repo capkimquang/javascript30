@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mouse Shadow</title>
+  <style>
+  html {
+    color: black;
+    font-family: sans-serif;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+
+  h1 {
+    text-shadow: 10px 10px 0 rgba(0,0,0,1);
+    font-size: 100px;
+  }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1 contenteditable>🔥WOAH!</h1>
+  </div>
+  <script>
+    const hero = document.querySelector('.hero');
+    const text = hero.querySelector('h1');
+    const move = 100; //100px
+
+    function shadow(e) {
+      // ES6 Destructuring
+      // offset to get cursor position
+      const { offsetWidth: width, offsetHeight: height } = hero;
+      let { offsetX: x, offsetY: y} = e;
+
+      // this is alway hero, target is thing that triggers on.
+      // so this and e.target may different in several times.
+      // if you deal with nested elements, e.g hero and h1 here.
+      // maybe you have to do some math.
+      if (this !== e.target) {
+        x += e.target.offsetLeft;
+        y += e.target.offsetTop;
+      }  // deal with x and y is a little bit headache lol.
+
+      // instead of moving from 0 to 100px
+      // calculate this to move from -50 to +50
+      const xMove = Math.round((x / width * move) - (move / 2));
+      const yMove = Math.round((y / height * move) - (move / 2));
+      text.style.textShadow = `${xMove}px ${yMove}px 0 red`;
+    }
+
+    hero.addEventListener('mousemove', shadow);
+  </script>
+</body>
+</html>
