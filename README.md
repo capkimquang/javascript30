@@ -21,13 +21,13 @@ This is a repository for 30 different projects written in JavaScript based on We
 - [X] [13. Slide In on Scroll - 23/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/013)
 - [X] [14. Object and Arrays - Reference VS Copy - 23/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/014)
 - [X] [15. LocalStorage and Event Delegation - 23/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/015)
-- [ ] 16. CSS Text Shadow Mouse Move Effect
-- [ ] 17. Sorting Band Names without articles
-- [ ] 18. Tally String Times with Reduce
-- [ ] 19. Unreal Webcam Fun
-- [ ] 20. Native Speech Recognition
-- [ ] 21. Geolocation based Speedometer and Compass
-- [ ] 22. Follow Along Links
+- [X] [16. CSS Text Shadow Mouse Move Effect - 24/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/016)
+- [X] [17. Sorting Band Names without articles - 24/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/017)
+- [X] [18. Tally String Times with Reduce - 24/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/018)
+- [X] [19. Unreal Webcam Fun - 25/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/019)
+- [X] [20. Native Speech Recognition - 25/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/020)
+- [X] [21. Geolocation based Speedometer and Compass - 25/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/021)
+- [X] [22. Follow Along Links - 25/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/022)
 - [ ] 23. Speech Synthesis
 - [ ] 24. Sticky Nav
 - [ ] 25. Event Capture, Propagation, Bubbling and Once
@@ -55,6 +55,9 @@ This is a repository for 30 different projects written in JavaScript based on We
 - Day 3 - 21/09/2020: **4** *projects*. => 08/31    => 0% |#####               | 100%
 - Day 4 - 22/09/2020: **3** *projects*. => 11/31    => 0% |#######             | 100%
 - Day 5 - 23/09/2020: **4** *projects*. => 15/31    => 0% |#########           | 100%
+- Day 6 - 24/09/2020: **3** *projects*. => 18/31    => 0% |###########         | 100%
+- Day 7 - 25/09/2020: **4** *projects*. => 22/31    => 0% |##############      | 100%
+
 </pre>
 
 # References
