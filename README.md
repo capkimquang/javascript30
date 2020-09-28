@@ -57,6 +57,8 @@ This is a repository for 30 different projects written in JavaScript based on We
 - Day 5 - 23/09/2020: **4** *projects*. => 15/31    => 0% |#########           | 100%
 - Day 6 - 24/09/2020: **3** *projects*. => 18/31    => 0% |###########         | 100%
 - Day 7 - 25/09/2020: **4** *projects*. => 22/31    => 0% |##############      | 100%
+- Day 8 - 26/09/2020: **0** *projects*. => 22/31    => 0% |##############      | 100%
+- Day 9 - 27/09/2020: **0** *projects*. => 22/31    => 0% |##############      | 100%
 
 </pre>
 
