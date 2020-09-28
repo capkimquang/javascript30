@@ -39,9 +39,113 @@ This is a repository for 30 different projects written in JavaScript based on We
 - [ ] 31. That's All Folks
 
 # Key Concept
+## Callback function
+### Definition
+A callback function is a function passed into another function as an argument, 
+which is then invoked inside the outer function to complete some kind of routine or action.  
+### Example
+<pre><code>
+  function greeting(name) {
+    alert('Hello ' + name);
+  }
+
+  function processUserInput(callback) {
+    var name = prompt('Please enter your name.');
+    callback(name);
+  }
+
+  processUserInput(greeting);
+</code></pre>
+### Asynchronous and Synchronous
+
+### Callback Hell
+#### Definition
+This is a big issue caused by coding with complex nested callbacks. Here, each and every callback takes an argument that is a result of the previous callbacks. In this manner, The code structure looks like a pyramid, making it difficult to read and maintain. Also, if there is an error in one function, then all other functions get affected. (from [GeeksforGeeks](https://www.geeksforgeeks.org/what-is-callback-hell-in-node-js/))
+
+#### [Constructing a Callback Hell](https://www.freecodecamp.org/news/how-to-deal-with-nested-callbacks-and-avoid-callback-hell-1bc8dc4a2012/)
+Let’s imagine we’re trying to make a burger. To make a burger, we need to go through the following steps:
+1. Get ingredients (we’re gonna assume it’s a beef burger)
+2. Cook the beef
+3. Get burger buns
+4. Put the cooked beef between the buns
+5. Serve the burger
+
+If these steps are synchronous, you’ll be looking at a function that resembles this:
+<pre><code>
+  const makeBurger = () => {
+    const beef = getBeef();
+    const patty = cookBeef(beef);
+    const buns = getBuns();
+    const burger = putBeefBetweenBuns(buns, beef);
+    return burger;
+  };
+
+  const burger = makeBurger();
+  serve(burger);
+</code></pre>
+However, in our scenario, let’s say we can’t make the burger ourselves. We have to instruct a helper on the steps to make the burger. After we instruct the helper, we have to WAIT for the helper to finish before we begin the next step.
+
+If we want to wait for something in JavaScript, we need to use a callback. To make the burger, we have to get the beef first. We can only cook the beef after we get the beef.
+<pre><code>
+const makeBurger = () => {
+  getBeef(function(beef) {
+    // We can only cook beef after we get it.
+  });
+};
+</code></pre>
+To cook the beef, we need to pass beef into the cookBeef function. Otherwise, there’s nothing to cook! Then, we have to wait for the beef to get cooked.
+
+Once the beef gets cooked, we get buns.
+<pre><code>
+const makeBurger = () => {
+  getBeef(function(beef) {
+    cookBeef(beef, function(cookedBeef) {
+      getBuns(function(buns) {
+        // Put patty in bun
+      });
+    });
+  });
+};
+</code></pre>
+After we get the buns, we need to put the patty between the buns. This is where a burger gets formed.
+<pre><code>
+const makeBurger = () => {
+  getBeef(function(beef) {
+    cookBeef(beef, function(cookedBeef) {
+      getBuns(function(buns) {
+        putBeefBetweenBuns(buns, beef, function(burger) {
+            // Serve the burger
+        });
+      });
+    });
+  });
+};
+</code></pre>
+Finally, we can serve the burger! But we can’t return burger from makeBurger because it’s asynchronous. We need to accept a callback to serve the burger.
+<pre><code>
+const makeBurger = nextStep => {
+  getBeef(function (beef) {
+    cookBeef(beef, function (cookedBeef) {
+      getBuns(function (buns) {
+        putBeefBetweenBuns(buns, beef, function(burger) {
+          nextStep(burger)
+        })
+      })
+    })
+  })
+}
+
+// Make and serve the burger
+makeBurger(function (burger) => {
+  serve(burger)
+})
+</code></pre>
+### References for Callback function
+- [Callback Hell in Node.js by GeeksforGeeks](https://www.geeksforgeeks.org/what-is-callback-hell-in-node-js/)
+- [Deal with Callback Hell by freecodecamp.com](https://www.freecodecamp.org/news/how-to-deal-with-nested-callbacks-and-avoid-callback-hell-1bc8dc4a2012/)
+
 ## Promise
 ## Prototype
-## Callback function
 ## fetch()
 ## this
 ## Event Delegation
