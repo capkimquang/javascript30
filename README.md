@@ -28,10 +28,10 @@ This is a repository for 30 different projects written in JavaScript based on We
 - [X] [20. Native Speech Recognition - 25/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/020)
 - [X] [21. Geolocation based Speedometer and Compass - 25/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/021)
 - [X] [22. Follow Along Links - 25/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/022)
-- [ ] 23. Speech Synthesis
-- [ ] 24. Sticky Nav
-- [ ] 25. Event Capture, Propagation, Bubbling and Once
-- [ ] 26. Stripe Follow Along Dropdown
+- [X] [23. Speech Synthesis - 25/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/023)
+- [X] [24. Sticky Nav - 25/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/024)
+- [X] [25. Event Capture, Propagation, Bubbling and Once - 25/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/025)
+- [X] [26. Stripe Follow Along Dropdown - 25/09/2020](https://github.com/capkimquang/javascript30/tree/master/challenge/026)
 - [ ] 27. Click and Drag to Scroll
 - [ ] 28. Video Speed Controller UI
 - [ ] 29. Countdown Clock
@@ -154,15 +154,18 @@ makeBurger(function (burger) => {
 
 # Progress
 <pre>
-- Day 1 - 19/09/2020: **2** *projects*. => 02/31    => 0% |#                   | 100%
-- Day 2 - 20/09/2020: **2** *projects*. => 04/31    => 0% |##                  | 100%
-- Day 3 - 21/09/2020: **4** *projects*. => 08/31    => 0% |#####               | 100%
-- Day 4 - 22/09/2020: **3** *projects*. => 11/31    => 0% |#######             | 100%
-- Day 5 - 23/09/2020: **4** *projects*. => 15/31    => 0% |#########           | 100%
-- Day 6 - 24/09/2020: **3** *projects*. => 18/31    => 0% |###########         | 100%
-- Day 7 - 25/09/2020: **4** *projects*. => 22/31    => 0% |##############      | 100%
-- Day 8 - 26/09/2020: **0** *projects*. => 22/31    => 0% |##############      | 100%
-- Day 9 - 27/09/2020: **0** *projects*. => 22/31    => 0% |##############      | 100%
+- Day 01 - 19/09/2020: **2** *projects*. => 02/31    => 0% |#                   | 100%
+- Day 02 - 20/09/2020: **2** *projects*. => 04/31    => 0% |##                  | 100%
+- Day 03 - 21/09/2020: **4** *projects*. => 08/31    => 0% |#####               | 100%
+- Day 04 - 22/09/2020: **3** *projects*. => 11/31    => 0% |#######             | 100%
+- Day 05 - 23/09/2020: **4** *projects*. => 15/31    => 0% |#########           | 100%
+- Day 06 - 24/09/2020: **3** *projects*. => 18/31    => 0% |###########         | 100%
+- Day 07 - 25/09/2020: **4** *projects*. => 22/31    => 0% |##############      | 100%
+- Day 08 - 26/09/2020: **0** *projects*. => 22/31    => 0% |##############      | 100%
+- Day 09 - 27/09/2020: **0** *projects*. => 22/31    => 0% |##############      | 100%
+- Day 10 - 28/09/2020: **0** *projects*. => 22/31    => 0% |##############      | 100%
+- Day 11 - 29/09/2020: **4** *projects*. => 26/31    => 0% |################    | 100%
+
 
 </pre>
 
